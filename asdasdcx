@@ -5,7 +5,7 @@ local Window = Library.CreateLib("savrou146 script lolz", "GrapeTheme")
 local flip = Window:NewTab("flippity floppity")
 local MainSection = flip:NewSection("goofy ahh")
 
-MainSection:NewButton("do a flip", "makes u do a flip u fucktard (z and c to flip)", function()
+MainSection:NewButton("do a flip", "makes u do a flip u fucktard (z and x to flip)", function()
     wait(5)
 
     --[[ Info ]]--
@@ -17,8 +17,8 @@ MainSection:NewButton("do a flip", "makes u do a flip u fucktard (z and c to fli
     --[[ Keybinds ]]--
     
     local FrontflipKey = Enum.KeyCode.Z
-    local BackflipKey = Enum.KeyCode.C
-    local AirjumpKey = Enum.KeyCode.V
+    local BackflipKey = Enum.KeyCode.X
+    local AirjumpKey = Enum.KeyCode.C
     
     
     --[[ Dependencies ]]--
@@ -164,7 +164,7 @@ MainSection:NewButton("fly", "makes u go superman", function()
     plr.Character.Humanoid.PlatformStand = false
     end
     mouse.KeyDown:connect(function(key)
-    if key:lower() == "x" then
+    if key:lower() == "v" then
     if flying then flying = false
     else
     flying = true
