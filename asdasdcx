@@ -17,8 +17,8 @@ MainSection:NewButton("do a flip", "makes u do a flip u fucktard (z and x to fli
     --[[ Keybinds ]]--
     
     local FrontflipKey = Enum.KeyCode.Z
-    local BackflipKey = Enum.KeyCode.X
-    local AirjumpKey = Enum.KeyCode.C
+    local BackflipKey = Enum.KeyCode.C
+    local AirjumpKey = Enum.KeyCode.V
     
     
     --[[ Dependencies ]]--
