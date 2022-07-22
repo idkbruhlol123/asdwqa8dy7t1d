@@ -5,7 +5,7 @@ local Window = Library.CreateLib("savrou146 script lolz", "GrapeTheme")
 local flip = Window:NewTab("flippity floppity")
 local MainSection = flip:NewSection("goofy ahh")
 
-MainSection:NewButton("do a flip", "makes u do a flip u fucktard (z and x to flip)", function()
+MainSection:NewButton("do a flip", "makes u do a flip u fucktard (z and c to flip)", function()
     wait(5)
 
     --[[ Info ]]--
